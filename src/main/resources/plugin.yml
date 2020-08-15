@@ -1,0 +1,12 @@
+name: Ascension-Magnet
+version: ${project.version}
+main: xyz.vertex101.ascensionmagnet.AscensionMagnet
+api-version: 1.13
+authors: [Vertex101]
+description: A custom plugin made for the Ascension stream team on twitch
+website: https://www.twitch.tv/team/sketchhub
+
+commands:
+  magnet:
+    description: Turn the player magnet on or off.
+    usage: /<command> <on|off>
