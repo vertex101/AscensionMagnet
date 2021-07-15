@@ -1,5 +1,5 @@
 name: Ascension-Magnet
-version: ${project.version}
+version: 1.0.7
 main: xyz.vertex101.ascensionmagnet.AscensionMagnet
 api-version: 1.17
 authors: [Vertex101]
