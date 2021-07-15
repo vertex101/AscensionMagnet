@@ -6,7 +6,6 @@
 
     <groupId>xyz.vertex101</groupId>
     <artifactId>AscensionMagnet</artifactId>
-    <version>1.0.6</version>
     <packaging>jar</packaging>
 
     <name>Ascension Magnet</name>
