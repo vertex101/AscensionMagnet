@@ -6,7 +6,7 @@
 
     <groupId>xyz.vertex101</groupId>
     <artifactId>AscensionMagnet</artifactId>
-	<version></version>
+	<version>0</version>
     <packaging>jar</packaging>
 
     <name>Ascension Magnet</name>
@@ -52,13 +52,6 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ftp</artifactId>
-                <version>3.4.3</version>
-            </extension>
-        </extensions>
     </build>
 
     <repositories>
@@ -80,11 +73,4 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>ascension</id>
-            <url>ftp://files.000webhost.com/public_html</url>
-        </repository>
-    </distributionManagement>
 </project>
