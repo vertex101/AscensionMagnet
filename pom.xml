@@ -6,7 +6,7 @@
 
     <groupId>xyz.vertex101</groupId>
     <artifactId>AscensionMagnet</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.6</version>
     <packaging>jar</packaging>
 
     <name>Ascension Magnet</name>
@@ -76,7 +76,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.1-R0.1-SNAPSHOT</version>
+            <version>1.17-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

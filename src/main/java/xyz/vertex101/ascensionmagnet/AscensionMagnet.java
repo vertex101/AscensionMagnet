@@ -64,7 +64,7 @@ public final class AscensionMagnet extends JavaPlugin {
                     }
                     if (closestPlayer == null)
                         continue;
-                    if(invFull)
+                    if(closestPlayer.getInventory().firstEmpty() == -1 && invFull)
                         continue;
                     item.setVelocity(closestPlayer.getLocation().toVector().subtract(item.getLocation().toVector()).normalize());
                 }
