@@ -5,10 +5,12 @@ on:
     paths:
     - '**.java'
     - '**.yml'
+    - '**.pom'
   pull_request:
     paths:
     - '**.java'
     - '**.yml'
+    - '**.pom'
 
 jobs:
   build:
@@ -32,4 +34,4 @@ jobs:
     
     - name: Publishing Build
       if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-      run: python3 .github/workflows/scripts/publish.py ./target/AscensionMagnet.jar AscensionMagnet ${{ secrets.DiscordWebHook }} ${{ github.sha }}
+      run: python3 .github/workflows/scripts/publish.py ./target/AscensionMagnet-0.jar AscensionMagnet ${{ secrets.DiscordWebHook }} ${{ github.sha }}
